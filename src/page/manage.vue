@@ -15,7 +15,7 @@
                         <el-menu-item index="">工人列表</el-menu-item>
                         <el-menu-item index="">管道列表</el-menu-item>
                         <el-menu-item index="">项目列表</el-menu-item>
-                        <el-menu-item index="">管理员列表</el-menu-item>
+                        <el-menu-item index="adminList">管理员列表</el-menu-item>
                         <!-- <el-menu-item index="userList">用户列表</el-menu-item>
                         <el-menu-item index="shopList">商家列表</el-menu-item>
                         <el-menu-item index="foodList">食品列表</el-menu-item>
