@@ -1,7 +1,7 @@
 <template>
     <div class="header_container">
 		<!-- 面包屑，循环遍历router中的各个路由的meta信息作为路径 -->
-		<el-breadcrumb separator="-->">
+		<el-breadcrumb separator=">">
 			<el-breadcrumb-item :to="{ path: '/manage' }">首页</el-breadcrumb-item>
 			<el-breadcrumb-item v-for="(item, index) in $route.meta" key="index">{{item}}</el-breadcrumb-item>
 		</el-breadcrumb>
@@ -73,11 +73,11 @@ export default {
   align-items: center;
   padding-left: 20px;
 }
-.avator {
-  .wh(36px, 36px);
-  border-radius: 50%;
-  margin-right: 37px;
-}
+// .avator {
+//   .wh(36px, 36px);
+//   border-radius: 50%;
+//   margin-right: 37px;
+// }
 .el-dropdown-menu__item {
   text-align: center;
 }
@@ -85,6 +85,6 @@ export default {
   cursor: pointer;
 }
 .el-icon-menu {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 </style>
