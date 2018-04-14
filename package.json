@@ -14,9 +14,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "dateformat": "^3.0.3",
     "echarts": "^3.5.4",
     "element-ui": "^1.2.9",
-    "time-formater": "^1.0.1",
     "vue": "^2.2.6",
     "vue-quill-editor": "^2.2.1",
     "vue-router": "^2.3.1",
